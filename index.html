@@ -252,12 +252,12 @@
               // ASN REQ 3 : detect authentication changes :
                   // if login :
                       // set login user to vm.data.currentUser
-                          if (user){
+                         /* if (user){
                           var userData = user.toJSON();        
                           usersRef.child (userData.uid).update(userData).catch(errorCallback)
                           vm.$set(vm.data, "currentUser" , userData )
                           }
-                       }
+                       }*/
                       // ASN REQ 4 :
                       // listen on chages on favorite data of currentUser , and set it to vm.data.currentUser
 
