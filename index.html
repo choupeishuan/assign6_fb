@@ -252,7 +252,7 @@
               // ASN REQ 3 : detect authentication changes :
                   // if login :
                       // set login user to vm.data.currentUser
-                          if (login){
+                          if (login()){
                           vm.$set(vm.data, "currentUser" )
                           }
                       // ASN REQ 4 :
